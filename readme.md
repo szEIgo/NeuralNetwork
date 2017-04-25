@@ -25,5 +25,6 @@ my CPU could not handle visualization fast enough to test the precisions up agai
 Iterations  - AO	- Precision
 10000       - 0.003 	- 0.9809
 20000	    - 0.003     - 0.9873
+10000	    - 0.005 	- 0.9795
 
 
