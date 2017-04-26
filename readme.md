@@ -34,15 +34,15 @@ It changes the bias and the weights, and then compare the output value with the 
  - b = tf.Variable(tf.zeros([10]))
 
 
-- Iterations - GDO 	- Precision
+- Iterations - GDO 	  - Precision
 - 2000       - 0.003 	- 0.9221
- -5000         0.003	- 0.9242
- - 2000 	   - 0.004	- 0.9244
- - 2000	   - 0.004	- 0.9251
- - 2000 	   - 0.005	- 0.9218
- - 5000 	   - 0.005	- 0.9257
- - 2000 	   - 0.006	- 0.9213
- - 5000       - 0.006	- 0.9254
+- 5000       -  0.003	- 0.9242
+- 2000 	     - 0.004	 - 0.9244
+- 2000	      - 0.004	 - 0.9251
+- 2000 	     - 0.005	 - 0.9218
+- 5000 	     - 0.005	 - 0.9257
+- 2000 	     - 0.006	 - 0.9213
+- 5000       - 0.006	 - 0.9254
 
 ![alt tag](https://github.com/szEIgo/NeuralNetwork/blob/master/math2.png)
 
