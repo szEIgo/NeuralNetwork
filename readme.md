@@ -24,14 +24,14 @@ It changes the bias and the weights, and then compare the output value with the 
 ![alt tag](https://github.com/szEIgo/NeuralNetwork/blob/master/img2.png)
 
 ### Needed variables:
-input X: 28x28 grayscale images, the first dimension (None) will index the images in the mini-batch
-X = tf.placeholder(tf.float32, [None, 28, 28, 1])
- correct answers will go here
-Y_ = tf.placeholder(tf.float32, [None, 10])
- weights W[784, 10]   784=28*28
-W = tf.Variable(tf.zeros([784, 10]))
-biases b[10]
-b = tf.Variable(tf.zeros([10]))
+- input X: 28x28 grayscale images, the first dimension (None) will index the images in the mini-batch
+ - X = tf.placeholder(tf.float32, [None, 28, 28, 1])
+ - correct answers will go here
+ - Y_ = tf.placeholder(tf.float32, [None, 10])
+ - weights W[784, 10]   784=28*28
+ - W = tf.Variable(tf.zeros([784, 10]))
+ - biases b[10]
+ - b = tf.Variable(tf.zeros([10]))
 
 
 - Iterations - GDO 	- Precision
