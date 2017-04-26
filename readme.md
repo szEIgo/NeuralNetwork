@@ -52,28 +52,23 @@ my CPU could not handle visualization fast enough to test the precisions up agai
 
 ## Five layers sigmoid
 
-W1 = tf.Variable(tf.truncated_normal([784, L], stddev=0.1))  # 784 = 28 * 28
-B1 = tf.Variable(tf.zeros([L]))
-W2 = tf.Variable(tf.truncated_normal([L, M], stddev=0.1))
-B2 = tf.Variable(tf.zeros([M]))
-W3 = tf.Variable(tf.truncated_normal([M, N], stddev=0.1))
-B3 = tf.Variable(tf.zeros([N]))
-W4 = tf.Variable(tf.truncated_normal([N, O], stddev=0.1))
-B4 = tf.Variable(tf.zeros([O]))
-W5 = tf.Variable(tf.truncated_normal([O, 10], stddev=0.1))
-B5 = tf.Variable(tf.zeros([10]))
-
-L = 200
-M = 100
-N = 60
-O = 30
+4 layers of sigmoid neurons(200, 100, 60, 30)
+1 layer of Softmax neurons(10)
 
 Last layer uses softmax aswell.
 
- - Iterations  - AO	    - Precision
+ - Iterations  - AO     - Precision
  - 10000       - 0.003 	- 0.9809
- - 20000	      - 0.003  - 0.9873
- - 10000	      - 0.005 	- 0.9795
+ - 20000       - 0.003  - 0.9873
+ - 10000       - 0.005 	- 0.9795
+
+ Neurons changed to see output
+
+ - Neurons             - AO    - Precision - iterations
+ - (100, 50, 20, 10)   - 0.005 - 0.9724    - 10000
+ - (1000, 500, 200, 10)- 0.005 - 0.9678    - 1000
+
+
 
 ![alt tag](https://github.com/szEIgo/NeuralNetwork/blob/master/img3.png)
 
