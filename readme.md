@@ -44,6 +44,8 @@ Iterations - GDO 	- Precision
 2000 	   - 0.006	- 0.9213
 5000       - 0.006	- 0.9254
 
+![alt tag](https://github.com/szEIgo/NeuralNetwork/blob/master/math2.png)
+
 That didn't change much.
 my CPU could not handle visualization fast enough to test the precisions up against each other.
 ![alt tag](https://github.com/szEIgo/NeuralNetwork/blob/master/img1.png)
