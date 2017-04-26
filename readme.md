@@ -70,10 +70,10 @@ O = 30
 
 Last layer uses softmax aswell.
 
-Iterations  - AO	- Precision
-10000       - 0.003 	- 0.9809
-20000	    - 0.003     - 0.9873
-10000	    - 0.005 	- 0.9795
+ - Iterations  - AO	    - Precision
+ - 10000       - 0.003 	- 0.9809
+ - 20000	      - 0.003  - 0.9873
+ - 10000	      - 0.005 	- 0.9795
 
 
 
