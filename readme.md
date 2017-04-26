@@ -75,6 +75,9 @@ Last layer uses softmax aswell.
  - 20000	      - 0.003  - 0.9873
  - 10000	      - 0.005 	- 0.9795
 
+![alt tag](https://github.com/szEIgo/NeuralNetwork/blob/master/img3.png)
+
+
 
 
 
